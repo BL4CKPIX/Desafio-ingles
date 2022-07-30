@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FFA500;
+}
+header{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    height: 7vh;
+    border-radius: 10vw;
+    background-color: #FDEDD5;
+}
+.menu img{
+    width: 2vw;
+    height: 4vh;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+figure img{
+    width: 25vw;
+}
+main h2{
+    word-spacing: 25vw;
+    font-size: 4.5vw;
+    line-height: 10vh;
+}
+.text{
+    line-height: 5vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.text h3{
+    font-size: 2vw;
+    position: relative;
+    height: 4vh;
+    left: 26%;
+    width: 20%;
+}
+.text p{
+    position: relative;
+    left: 26%;
+    width: 40vw;
+    text-align: justify;
+    font-size: 1.5vw;
+}
+.textinho{
+    height: 15vh;
+}
+.pay{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    width: 30%;
+    height: 10vh;
+}
+.add{
+    display: flex;
+    width: 30vw;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10vw;
+    height: 6vh;
+    border: solid 2px;
+    background-color: transparent;
+}
+.botao{
+    line-height: 10vh;
+}
+button{
+    background-color: black;
+    border: none;
+    border-radius: 10vw;
+    width: 30vw;
+    height: 6vh;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    header{
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 90%;
+        height: 7vh;
+        border-radius: 10vw;
+        background-color: #FDEDD5;
+    }
+    .menu img{
+        width: 8vw;
+        height: 4vh;
+    }
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    figure img{
+        width: 90vw;
+    }
+    main h2{
+        word-spacing: 25vw;
+        font-size: 12vw;
+        line-height: 10vh;
+    }
+    .text{
+        line-height: 4vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .text h3{
+        font-size: 6vw;
+        position: relative;
+        height: 4vh;
+        left: 7%;
+        width: 60%;
+    }
+    .text p{
+        position: relative;
+        left: 7%;
+        width: 80vw;
+        text-align: justify;
+        font-size: 5vw;
+    }
+    .textinho{
+        height: 15vh;
+    }
+    .pay{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        position: relative;
+        right: 8%;
+        width: 70%;
+        height: 10vh;
+        font-size: 5vw;
+    }
+    .add{
+        display: flex;
+        width: 85vw;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 10vw;
+        height: 6vh;
+        border: solid 2px;
+        background-color: transparent;
+    }
+    .botao{
+        line-height: 10vh;
+    }
+    button{
+        background-color: black;
+        border: none;
+        border-radius: 10vw;
+        width: 85vw;
+        height: 6vh;
+        color: white;
+    }
+
+}
